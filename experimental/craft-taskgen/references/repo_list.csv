@@ -1,0 +1,232 @@
+short_name,github_repo,github_url,stars,license,domain,description
+aiohttp,aio-libs/aiohttp,https://github.com/aio-libs/aiohttp,15000,Apache-2.0,Web/API,Async HTTP client/server middleware pipeline
+alembic,sqlalchemy/alembic,https://github.com/sqlalchemy/alembic,3000,MIT,Data/DB,Database migration framework revision DAG
+click,pallets/click,https://github.com/pallets/click,16000,BSD-3,CLI/TUI,Composable CLI framework parameter types
+dramatiq,Bogdanp/dramatiq,https://github.com/Bogdanp/dramatiq,4000,LGPL-3.0,Infra/System,Task queue actor model middleware chain
+espnet,espnet/espnet,https://github.com/espnet/espnet,9000,Apache-2.0,ML/Research,End-to-end speech processing complex training pipelines
+httpx,encode/httpx,https://github.com/encode/httpx,14000,BSD-3,Web/API,Modern HTTP client sync/async transport API
+hydra,facebookresearch/hydra,https://github.com/facebookresearch/hydra,9000,MIT,DevTools,Hierarchical config composition plugin system
+hypothesis,HypothesisWorks/hypothesis,https://github.com/HypothesisWorks/hypothesis,8000,MPL-2.0,DevTools,Property-based testing strategy composition
+mypy,python/mypy,https://github.com/python/mypy,19000,MIT,DevTools,Static type checker plugin architecture
+optuna,optuna/optuna,https://github.com/optuna/optuna,12000,MIT,ML/Research,Hyperparameter optimization pruning storage
+paramiko,paramiko/paramiko,https://github.com/paramiko/paramiko,9000,LGPL-2.1,Infra/System,SSH2 protocol transport/channel abstraction
+peewee,coleifer/peewee,https://github.com/coleifer/peewee,11000,MIT,Data/DB,Lightweight ORM query builder model metaclasses
+pendulum,sdispater/pendulum,https://github.com/sdispater/pendulum,6000,MIT,Other,DateTime library timezone handling
+polars,pola-rs/polars,https://github.com/pola-rs/polars,33000,MIT,Data/DB,DataFrame library lazy evaluation query optimization
+pydantic,pydantic/pydantic,https://github.com/pydantic/pydantic,23000,MIT,DevTools,Data validation model serialization computed fields
+rich,Textualize/rich,https://github.com/Textualize/rich,51000,MIT,CLI/TUI,Terminal rendering layout engine syntax highlighting
+sentence-transformers,UKPLab/sentence-transformers,https://github.com/UKPLab/sentence-transformers,16000,Apache-2.0,ML/Research,Sentence embeddings training framework
+sqlalchemy,sqlalchemy/sqlalchemy,https://github.com/sqlalchemy/sqlalchemy,10000,MIT,Data/DB,SQL toolkit ORM expression language engine
+starlette,encode/starlette,https://github.com/encode/starlette,11000,BSD-3,Web/API,ASGI toolkit routing middleware WebSockets
+textual,Textualize/textual,https://github.com/Textualize/textual,27000,MIT,CLI/TUI,TUI framework reactive widgets CSS engine
+fastapi,fastapi/fastapi,https://github.com/fastapi/fastapi,96000,MIT,Web/API,Dependency injection Pydantic integration async routing
+scrapy,scrapy/scrapy,https://github.com/scrapy/scrapy,61000,BSD-3,Web/API,Complex spider/middleware/pipeline architecture
+mitmproxy,mitmproxy/mitmproxy,https://github.com/mitmproxy/mitmproxy,43000,MIT,Networking,TLS interception flow processing addon system
+black,psf/black,https://github.com/psf/black,41000,MIT,DevTools,AST manipulation formatting engine
+poetry,python-poetry/poetry,https://github.com/python-poetry/poetry,34000,MIT,DevTools,Dependency resolution PEP compliance installer
+celery,celery/celery,https://github.com/celery/celery,28000,BSD-3,Infra/System,Distributed workers broker abstraction result backends
+locust,locustio/locust,https://github.com/locustio/locust,28000,MIT,Infra/System,Distributed test runner event system web UI
+loguru,Delgan/loguru,https://github.com/Delgan/loguru,24000,MIT,Other,Sink system lazy formatting structured logging
+faker,joke2k/faker,https://github.com/joke2k/faker,19000,MIT,Other,Provider system locale support complex generators
+typer,fastapi/typer,https://github.com/fastapi/typer,19000,MIT,CLI/TUI,Click-based type-hint driven CLI framework
+luigi,spotify/luigi,https://github.com/spotify/luigi,19000,Apache-2.0,Data Pipelines,DAG scheduling worker coordination targets
+sanic,sanic-org/sanic,https://github.com/sanic-org/sanic,19000,MIT,Web/API,HTTP/2 streaming middleware blueprints
+networkx,networkx/networkx,https://github.com/networkx/networkx,17000,BSD-3,Data/DB,Algorithm library graph data structures
+pre-commit,pre-commit/pre-commit,https://github.com/pre-commit/pre-commit,15000,MIT,DevTools,Hook framework multi-language caching
+dagster,dagster-io/dagster,https://github.com/dagster-io/dagster,15000,Apache-2.0,Data Pipelines,Asset DAGs type system IO managers
+beets,beetbox/beets,https://github.com/beetbox/beets,15000,MIT,Other,Plugin architecture music database autotagger
+dask,dask/dask,https://github.com/dask/dask,14000,BSD-3,Data Pipelines,Lazy evaluation task graphs schedulers
+psutil,giampaolo/psutil,https://github.com/giampaolo/psutil,11000,BSD-3,Infra/System,Cross-platform process/system info
+python-prompt-toolkit,prompt-toolkit/python-prompt-toolkit,https://github.com/prompt-toolkit/python-prompt-toolkit,10000,BSD-3,CLI/TUI,Interactive terminal toolkit completion key bindings
+falcon,falconry/falcon,https://github.com/falconry/falcon,10000,Apache-2.0,Web/API,Minimalist WSGI/ASGI framework
+attrs,python-attrs/attrs,https://github.com/python-attrs/attrs,5000,MIT,Infra/System,Python classes without boilerplate
+tortoise-orm,tortoise/tortoise-orm,https://github.com/tortoise/tortoise-orm,4000,Apache-2.0,Data/DB,Easy async ORM inspired by Django
+aiogram,aiogram/aiogram,https://github.com/aiogram/aiogram,5000,MIT,Web/API,Modern async Telegram bot framework
+authlib,lepture/authlib,https://github.com/lepture/authlib,4000,BSD-3,Web/API,OAuth and OpenID Connect library for Python
+strawberry,strawberry-graphql/strawberry,https://github.com/strawberry-graphql/strawberry,4000,MIT,Web/API,GraphQL library for Python using type hints
+hug,hugapi/hug,https://github.com/hugapi/hug,7000,MIT,Web/API,Pythonic API framework built on Falcon
+uplink,prkumar/uplink,https://github.com/prkumar/uplink,1000,MIT,Web/API,Declarative HTTP client library
+twisted,twisted/twisted,https://github.com/twisted/twisted,6000,MIT,Infra/System,Event-driven networking engine
+markdown-it-py,executablebooks/markdown-it-py,https://github.com/executablebooks/markdown-it-py,1285,MIT,Data/DB,"Markdown parser, done right. 100% CommonMark support, extensions, syntax plugins & high speed. Now in Python!"
+mistletoe,miyuchina/mistletoe,https://github.com/miyuchina/mistletoe,1039,MIT,Web/API,"A fast, extensible and spec-compliant Markdown parser in pure Python."
+headroom,chopratejas/headroom,https://github.com/chopratejas/headroom,1333,Apache-2.0,AI/ML,The Context Optimization Layer for LLM Applications
+proxy.py,abhinavsingh/proxy.py,https://github.com/abhinavsingh/proxy.py,3517,BSD-3-Clause,Web/API,"💫 Ngrok FRP Alternative • ⚡ Fast • 🪶 Lightweight • 0️⃣ Dependency • 🔌 Pluggable • 😈 TLS interception • 🔒 DNS-over-HTTPS • 🔥 Poor Man's VPN • ⏪ Reverse & ⏩ Forward • 👮🏿 ""Proxy Server"" framework • 🌐 ""Web Server"" framework • ➵ ➶ ➷ ➠ ""PubSub"" framework • 👷 ""Work"" acceptor & executor framework"
+jc,kellyjonbrazil/jc,https://github.com/kellyjonbrazil/jc,8576,MIT,CLI/TUI,"CLI tool and python library that converts the output of popular command-line tools, file-types, and common strings to JSON, YAML, or Dictionaries. This allows piping of output to tools like jq and simplifying automation scripts."
+pipx,pypa/pipx,https://github.com/pypa/pipx,12719,MIT,CLI/TUI,Install and Run Python Applications in Isolated Environments
+py7zr,miurahr/py7zr,https://github.com/miurahr/py7zr,541,LGPL-2.1,CLI/TUI,"7zip in python3 with ZStandard, PPMd, LZMA2, LZMA1, Delta, BCJ, BZip2, and Deflate compressions, and AES encryption."
+FastAPI-boilerplate,benavlabs/FastAPI-boilerplate,https://github.com/benavlabs/FastAPI-boilerplate,1882,MIT,Web/API,"An extendable async API using FastAPI, Pydantic V2, SQLAlchemy 2.0, PostgreSQL and Redis."
+datasette,simonw/datasette,https://github.com/simonw/datasette,10955,Apache-2.0,Web/API,An open source multi-tool for exploring and publishing data
+tmuxp,tmux-python/tmuxp,https://github.com/tmux-python/tmuxp,4479,MIT,CLI/TUI,"🖥️ Session manager for tmux, built on libtmux."
+whisper,graphite-project/whisper,https://github.com/graphite-project/whisper,1267,Apache-2.0,Data/DB,Whisper is a file-based time-series database format for Graphite.
+exif-py,ianare/exif-py,https://github.com/ianare/exif-py,945,BSD-3-Clause,Web/API,Easy to use Python module to extract Exif metadata from digital image files.
+toon-python,toon-format/toon-python,https://github.com/toon-format/toon-python,710,MIT,Other,🐍 Community-driven Python implementation of TOON
+cheat.sh,chubin/cheat.sh,https://github.com/chubin/cheat.sh,41234,MIT,CLI/TUI,the only cheat sheet you need
+maigret,soxoj/maigret,https://github.com/soxoj/maigret,19475,MIT,Web/API,🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites
+txtai,neuml/txtai,https://github.com/neuml/txtai,12404,Apache-2.0,AI/ML,"💡 All-in-one AI framework for semantic search, LLM orchestration and language model workflows"
+unblob,onekey-sec/unblob,https://github.com/onekey-sec/unblob,2483,MIT,Data/DB,Extract files from any kind of container formats
+ddgs,deedy5/ddgs,https://github.com/deedy5/ddgs,2457,MIT,Web/API,A metasearch library that aggregates results from diverse web search services
+blackboxprotobuf,nccgroup/blackboxprotobuf,https://github.com/nccgroup/blackboxprotobuf,715,MIT,Data/DB,Blackbox Protobuf is a set of tools for working with encoded Protocol Buffers (protobuf) without the matching protobuf definition.
+sherlock,sherlock-project/sherlock,https://github.com/sherlock-project/sherlock,81227,MIT,CLI/TUI,Hunt down social media accounts by username across social networks
+RsaCtfTool,RsaCtfTool/RsaCtfTool,https://github.com/RsaCtfTool/RsaCtfTool,6897,MIT,Data/DB,RSA attack tool (mainly for ctf) - retrieve private key from weak public key and/or uncipher data
+descript-audio-codec,descriptinc/descript-audio-codec,https://github.com/descriptinc/descript-audio-codec,1766,MIT,AI/ML,"State-of-the-art audio codec with 90x compression factor. Supports 44.1kHz, 24kHz, and 16kHz mono/stereo audio."
+paper-qa,Future-House/paper-qa,https://github.com/Future-House/paper-qa,8383,Apache-2.0,AI/ML,High accuracy RAG for answering questions from scientific documents with citations
+CairoSVG,Kozea/CairoSVG,https://github.com/Kozea/CairoSVG,918,LGPL-3.0,Data/DB,Convert your vector images
+R2R,SciPhi-AI/R2R,https://github.com/SciPhi-AI/R2R,7768,MIT,AI/ML,SoTA production-ready AI retrieval system. Agentic Retrieval-Augmented Generation (RAG) with a RESTful API.
+shell_gpt,TheR1D/shell_gpt,https://github.com/TheR1D/shell_gpt,11978,MIT,AI/ML,"A command-line productivity tool powered by AI large language models like GPT-5, will help you accomplish your tasks faster and more efficiently."
+paperai,neuml/paperai,https://github.com/neuml/paperai,1752,Apache-2.0,AI/ML,📄 🤖 AI for medical and scientific papers
+websockify,novnc/websockify,https://github.com/novnc/websockify,4378,LGPL-3.0,Web/API,Websockify is a WebSocket to TCP proxy/bridge. This allows a browser to connect  to any application/server/service.
+swirl-search,swirlai/swirl-search,https://github.com/swirlai/swirl-search,2995,Apache-2.0,AI/ML,"AI Search & RAG Without Moving Your Data. Get instant answers from your company's knowledge across 100+ apps while keeping data secure. Deploy in minutes, not months."
+ratarmount,mxmlnkn/ratarmount,https://github.com/mxmlnkn/ratarmount,1221,MIT,Infra/System,"Access large archives as a filesystem efficiently, e.g., TAR, RAR, ZIP, GZ, BZ2, XZ, ZSTD archives"
+SeqBox,MarcoPon/SeqBox,https://github.com/MarcoPon/SeqBox,550,MIT,Data/DB,A single file container/archive that can be reconstructed even after total loss of file system structures
+SimpleMem,aiming-lab/SimpleMem,https://github.com/aiming-lab/SimpleMem,3239,MIT,AI/ML,SimpleMem: Efficient Lifelong Memory for LLM Agents — Text & Multimodal
+daphne,django/daphne,https://github.com/django/daphne,2660,BSD-3-Clause,Web/API,Django Channels HTTP/WebSocket server
+cyberbro,stanfrbd/cyberbro,https://github.com/stanfrbd/cyberbro,629,MIT,Data/DB,A simple application that extracts your IoCs from garbage input and checks their reputation using multiple CTI services.
+DocsGPT,arc53/DocsGPT,https://github.com/arc53/DocsGPT,17828,MIT,AI/ML,"Private AI platform for agents, assistants and enterprise search. Built-in Agent Builder, Deep research, Document analysis, Multi-model support, and API connectivity for agents."
+gpt-researcher,assafelovic/gpt-researcher,https://github.com/assafelovic/gpt-researcher,26489,Apache-2.0,AI/ML,An autonomous agent that conducts deep research on any data using any LLM providers
+MicroWebSrv2,jczic/MicroWebSrv2,https://github.com/jczic/MicroWebSrv2,716,MIT,Web/API,"The last Micro Web Server for IoTs (MicroPython) or large servers (CPython), that supports WebSockets, routes, template engine and with really optimized architecture (mem allocations, async I/Os). Ready for ESP32, STM32 on Pyboard, Pycom's chipsets (WiPy, LoPy, ...). Robust, efficient and documented!"
+Agent-Reach,Panniantong/Agent-Reach,https://github.com/Panniantong/Agent-Reach,17627,MIT,AI/ML,"Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees."
+BobTheSmuggler,TheCyb3rAlpha/BobTheSmuggler,https://github.com/TheCyb3rAlpha/BobTheSmuggler,593,MIT,AI/ML,"""Bob the Smuggler"": A tool that leverages HTML Smuggling Attack and allows you to create HTML files with embedded 7z/zip archives. The tool would compress your binary (EXE/DLL) into 7z/zip file format, then XOR encrypt the archive and then hides inside PNG/GIF image file format (Image Polyglots). "
+django-cachalot,noripyt/django-cachalot,https://github.com/noripyt/django-cachalot,1419,BSD-3-Clause,Web/API,"No effort, no worry, maximum performance."
+whoogle-search,benbusby/whoogle-search,https://github.com/benbusby/whoogle-search,11465,MIT,Web/API,"A self-hosted, ad-free, privacy-respecting metasearch engine"
+pinry,pinry/pinry,https://github.com/pinry/pinry,3362,BSD-2-Clause,Web/API,"Pinry, a tiling image board system for people who want to save, tag, and share images, videos and webpages in an easy to skim through format. It's open-source and self-hosted."
+text-extract-api,CatchTheTornado/text-extract-api,https://github.com/CatchTheTornado/text-extract-api,3088,MIT,AI/ML,"Document (PDF, Word, PPTX ...) extraction and parse API using state of the art modern OCRs + Ollama supported models. Anonymize documents. Remove PII. Convert any document or picture to structured JSON or Markdown"
+airweave,airweave-ai/airweave,https://github.com/airweave-ai/airweave,6238,MIT,AI/ML,Open-source context retrieval layer for AI agents
+MsfMania,lepotekil/MsfMania,https://github.com/lepotekil/MsfMania,517,MIT,CLI/TUI,Python AV Evasion Tools
+streamlink,streamlink/streamlink,https://github.com/streamlink/streamlink,11414,BSD-2-Clause,CLI/TUI,Streamlink is a CLI utility which pipes video streams from various services into a video player
+python-websocket-server,Pithikos/python-websocket-server,https://github.com/Pithikos/python-websocket-server,1179,MIT,Web/API,A simple fully working websocket-server in Python with no external dependencies
+yt-dlp,yt-dlp/yt-dlp,https://github.com/yt-dlp/yt-dlp,157190,Unlicense,CLI/TUI,A feature-rich command-line audio/video downloader
+pants,pantsbuild/pants,https://github.com/pantsbuild/pants,3754,Apache-2.0,CLI/TUI,The Pants Build System
+CleanMyWechat,blackboxo/CleanMyWechat,https://github.com/blackboxo/CleanMyWechat,5322,MIT,AI/ML,自动删除 PC 端微信缓存数据，包括从所有聊天中自动下载的大量文件、视频、图片等数据内容，解放你的空间。
+WordOps,WordOps/WordOps,https://github.com/WordOps/WordOps,1542,MIT,Web/API,Install and manage a high performance WordPress stack with a few keystrokes
+PdfGptIndexer,raghavan/PdfGptIndexer,https://github.com/raghavan/PdfGptIndexer,677,MIT,AI/ML,"RAG based tool for indexing and searching PDF text data using OpenAI API and FAISS (Facebook AI Similarity Search) index, designed for rapid information retrieval and superior search accuracy."
+python-socketio,miguelgrinberg/python-socketio,https://github.com/miguelgrinberg/python-socketio,4338,MIT,Web/API,Python Socket.IO server and client
+aider,Aider-AI/aider,https://github.com/Aider-AI/aider,43435,Apache-2.0,AI/ML,aider is AI pair programming in your terminal
+docstrange,NanoNets/docstrange,https://github.com/NanoNets/docstrange,1413,MIT,AI/ML,"Extract and convert data from any document, images, pdfs, word doc, ppt or URL into multiple formats (Markdown, JSON, CSV, HTML) with intelligent structured data extraction and advanced OCR."
+comic-translate,ogkalu2/comic-translate,https://github.com/ogkalu2/comic-translate,2518,Apache-2.0,AI/ML,"Desktop app for automatically translating comics - BDs, Manga, Manhwa, Fumetti and more in a variety of formats (Image, Pdf, Epub, cbr, cbz, etc) and in multiple languages."
+sshuttle,sshuttle/sshuttle,https://github.com/sshuttle/sshuttle,13263,LGPL-2.1,Web/API,Transparent proxy server that works as a poor man's VPN.  Forwards over ssh.  Doesn't require admin.  Works with Linux and MacOS.  Supports DNS tunneling.
+PySyft,OpenMined/PySyft,https://github.com/OpenMined/PySyft,9873,Apache-2.0,AI/ML,Perform data science on data that remains in someone else's server
+posting,darrenburns/posting,https://github.com/darrenburns/posting,11736,Apache-2.0,Web/API,The modern API client that lives in your terminal.
+socketify.py,cirospaciari/socketify.py,https://github.com/cirospaciari/socketify.py,1706,MIT,Web/API,Bringing Http/Https and WebSockets High Performance servers for PyPy3 and Python3
+vall-e,lifeiteng/vall-e,https://github.com/lifeiteng/vall-e,2206,Apache-2.0,AI/ML,"PyTorch implementation of VALL-E(Zero-Shot Text-To-Speech), Reproduced Demo https://lifeiteng.github.io/valle/index.html"
+vosk-server,alphacep/vosk-server,https://github.com/alphacep/vosk-server,1250,Apache-2.0,AI/ML,"WebSocket, gRPC and WebRTC speech recognition server based on Vosk and Kaldi libraries"
+DFloat11,LeanModels/DFloat11,https://github.com/LeanModels/DFloat11,618,Apache-2.0,AI/ML,DFloat11 [NeurIPS '25]: Lossless Compression of LLMs and DiTs for Efficient GPU Inference
+cyclopts,BrianPugh/cyclopts,https://github.com/BrianPugh/cyclopts,1131,Apache-2.0,text_processing,"Intuitive, easy CLIs based on python type hints."
+sqlfluff,sqlfluff/sqlfluff,https://github.com/sqlfluff/sqlfluff,9654,MIT,database_kv_store,A modular SQL linter and auto-formatter with support for multiple dialects and templated code.
+isort,PyCQA/isort,https://github.com/PyCQA/isort,6931,MIT,text_processing,A Python utility / library to sort imports.
+bm25s,xhluca/bm25s,https://github.com/xhluca/bm25s,1623,MIT,search_indexing,"Fast BM25 search in Python, powered by Numpy and Numba"
+dynaconf,dynaconf/dynaconf,https://github.com/dynaconf/dynaconf,4286,MIT,data_format_parser,Configuration Management for Python ⚙
+LEANN,yichuan-w/LEANN,https://github.com/yichuan-w/LEANN,10821,MIT,search_indexing,"[MLsys2026]: RAG on Everything with LEANN. Enjoy 97% storage savings while running a fast, accurate, and 100% private RAG application on your personal device."
+sqlit,Maxteabag/sqlit,https://github.com/Maxteabag/sqlit,4038,MIT,database_kv_store,"A user friendly TUI for SQL databases. Written in python. Supports SQL server, Mysql, PostreSQL, SQLite, Turso and more."
+datamodel-code-generator,koxudaxi/datamodel-code-generator,https://github.com/koxudaxi/datamodel-code-generator,3865,MIT,data_format_parser,"Python data model generator (Pydantic, dataclasses, TypedDict, msgspec) from OpenAPI, JSON Schema, GraphQL, and raw data (JSON/YAML/CSV)."
+VectorDBBench,zilliztech/VectorDBBench,https://github.com/zilliztech/VectorDBBench,1074,MIT,search_indexing,Benchmark for vector databases.
+pgcli,dbcli/pgcli,https://github.com/dbcli/pgcli,13108,BSD-3-Clause,database_kv_store,Postgres CLI with autocompletion and syntax highlighting
+tavern,taverntesting/tavern,https://github.com/taverntesting/tavern,1133,MIT,network_protocol,"A command-line tool and Python library and Pytest plugin for automated testing of RESTful APIs, with a simple, concise and flexible YAML-based syntax"
+cocoindex-code,cocoindex-io/cocoindex-code,https://github.com/cocoindex-io/cocoindex-code,1368,Apache-2.0,search_indexing,A super light-weight embedded code search engine CLI (AST based) that just works - saves 70% token and improves speed for coding agent  🌟 Star if you like it!
+schemathesis,schemathesis/schemathesis,https://github.com/schemathesis/schemathesis,3220,MIT,text_processing,Catch API bugs before your users do
+git-machete,VirtusLab/git-machete,https://github.com/VirtusLab/git-machete,1105,MIT,text_processing,Probably the sharpest git repository organizer & rebase/merge workflow automation tool you've ever seen
+sqlite-utils,simonw/sqlite-utils,https://github.com/simonw/sqlite-utils,2035,Apache-2.0,text_processing,Python CLI utility and library for manipulating SQLite databases
+dnsdiag,farrokhi/dnsdiag,https://github.com/farrokhi/dnsdiag,1039,BSD-2-Clause,network_protocol,"DNS Measurement, Troubleshooting and Security Auditing Toolset"
+tox,tox-dev/tox,https://github.com/tox-dev/tox,3914,MIT,text_processing,Command line driven CI frontend and development task automation tool.
+sqllineage,reata/sqllineage,https://github.com/reata/sqllineage,1639,MIT,database_kv_store,SQL Lineage Analysis Tool powered by Python
+mycli,dbcli/mycli,https://github.com/dbcli/mycli,11905,BSD-3-Clause,database_kv_store,A Terminal Client for MySQL with AutoCompletion and Syntax Highlighting.
+gita,nosarthur/gita,https://github.com/nosarthur/gita,1846,MIT,text_processing,Manage many git repos with sanity 从容管理多个git库
+Spoolman,Donkie/Spoolman,https://github.com/Donkie/Spoolman,2359,MIT,database_kv_store,Keep track of your inventory of 3D-printer filament spools.
+canmatrix,ebroecker/canmatrix,https://github.com/ebroecker/canmatrix,1072,BSD-2-Clause,data_format_parser,Converting Can (Controller Area Network) Database Formats .arxml .dbc .dbf .kcd ...
+elodie,jmathai/elodie,https://github.com/jmathai/elodie,1481,Apache-2.0,text_processing,"An EXIF-based photo assistant, organizer  and workflow automation tool."
+youtube-transcript-api,jdepoix/youtube-transcript-api,https://github.com/jdepoix/youtube-transcript-api,7341,MIT,text_processing,"This is a python API which allows you to get the transcript/subtitles for a given YouTube video. It also works for automatically generated subtitles and it does not require an API key nor a headless browser, like other selenium based solutions do!"
+microdot,miguelgrinberg/microdot,https://github.com/miguelgrinberg/microdot,2107,MIT,network_protocol,The impossibly small web framework for Python and MicroPython.
+DDNS,NewFuture/DDNS,https://github.com/NewFuture/DDNS,4662,MIT,network_protocol,"🌐自动更新域名解析到本机IP(支持dnspod,阿里DNS,CloudFlare,华为云,DNSCOM...)"
+jiratui,whyisdifficult/jiratui,https://github.com/whyisdifficult/jiratui,1564,MIT,text_processing,A Textual User Interface for interacting with Atlassian Jira from your shell
+BlackSheep,Neoteroi/BlackSheep,https://github.com/Neoteroi/BlackSheep,2329,MIT,network_protocol,Fast ASGI web framework for Python
+eralchemy,eralchemy/eralchemy,https://github.com/eralchemy/eralchemy,1403,Apache-2.0,database_kv_store,Entity Relation Diagrams generation tool
+uvicorn,Kludex/uvicorn,https://github.com/Kludex/uvicorn,10597,BSD-3-Clause,network_protocol,"An ASGI web server, for Python. 🦄"
+pyp,hauntsaninja/pyp,https://github.com/hauntsaninja/pyp,1523,MIT,text_processing,"Easily run Python at the shell! Magical, but never mysterious."
+hatch,pypa/hatch,https://github.com/pypa/hatch,7145,MIT,text_processing,"Modern, extensible Python project management"
+fast-agent,evalstate/fast-agent,https://github.com/evalstate/fast-agent,3745,Apache-2.0,text_processing,"Code, Build and Evaluate agents - excellent Model and Skills/MCP/ACP Support"
+claude-code-tools,pchalasani/claude-code-tools,https://github.com/pchalasani/claude-code-tools,1724,MIT,text_processing,"Practical productivity tools for Claude Code, Codex-CLI, and similar CLI coding agents."
+curl_cffi,lexiforest/curl_cffi,https://github.com/lexiforest/curl_cffi,5420,MIT,database_kv_store,Python binding for curl-impersonate fork via cffi. A http client that can impersonate browser tls/ja3/http2 fingerprints.
+ngxtop,lebinh/ngxtop,https://github.com/lebinh/ngxtop,6523,MIT,text_processing,Real-time metrics for nginx server
+plaso,log2timeline/plaso,https://github.com/log2timeline/plaso,2052,Apache-2.0,database_kv_store,Super timeline all the things
+marimo,marimo-team/marimo,https://github.com/marimo-team/marimo,20437,Apache-2.0,database_kv_store,"A reactive notebook for Python — run reproducible experiments, query with SQL, execute as a script, deploy as an app, and version with git. Stored as pure Python. All in a modern, AI-native editor."
+joblib,joblib/joblib,https://github.com/joblib/joblib,4339,BSD-3-Clause,cache_memory_store,Computing with Python functions.
+prompttools,hegelai/prompttools,https://github.com/hegelai/prompttools,3034,Apache-2.0,search_indexing,"Open-source tools for prompt testing and experimentation, with support for both LLMs (e.g. OpenAI, LLaMA) and vector databases (e.g. Chroma, Weaviate, LanceDB)."
+pdfminer.six,pdfminer/pdfminer.six,https://github.com/pdfminer/pdfminer.six,6952,MIT,data_format_parser,Community maintained fork of pdfminer - we fathom PDF
+websocket-client,websocket-client/websocket-client,https://github.com/websocket-client/websocket-client,3703,Apache-2.0,network_protocol,WebSocket client for Python
+jsonpickle,jsonpickle/jsonpickle,https://github.com/jsonpickle/jsonpickle,1317,BSD-3-Clause,serialization,"Python library for serializing any arbitrary object graph into JSON. It can take almost any Python object and turn the object into JSON. Additionally, it can reconstitute the object back into Python."
+kapitan,kapicorp/kapitan,https://github.com/kapicorp/kapitan,1908,Apache-2.0,data_format_parser,"Generic templated configuration management for Kubernetes, Terraform and other things"
+gptme,gptme/gptme,https://github.com/gptme/gptme,4271,MIT,text_processing,"Your agent in your terminal, equipped with local tools: writes code, uses the terminal, browses the web. Make your own persistent autonomous agent on top!"
+semantica,Hawksight-AI/semantica,https://github.com/Hawksight-AI/semantica,1012,MIT,database_kv_store,"Semantica 🧠 — A framework for building semantic layers, context graphs, and decision intelligence systems with explainability and provenance."
+SeaGOAT,kantord/SeaGOAT,https://github.com/kantord/SeaGOAT,1282,MIT,text_processing,local-first semantic code search engine
+raglite,superlinear-ai/raglite,https://github.com/superlinear-ai/raglite,1151,MPL-2.0,search_indexing,🥤 RAGLite is a Python toolkit for Retrieval-Augmented Generation (RAG) with DuckDB or PostgreSQL
+sqlmesh,SQLMesh/sqlmesh,https://github.com/SQLMesh/sqlmesh,3036,Apache-2.0,database_kv_store,Scalable and efficient data transformation framework - backwards compatible with dbt.
+doitlive,sloria/doitlive,https://github.com/sloria/doitlive,3561,MIT,text_processing,Because sometimes you need to do it live
+cleanvision,cleanlab/cleanvision,https://github.com/cleanlab/cleanvision,1170,Apache-2.0,database_kv_store,Automatically find issues in image datasets and practice data-centric computer vision.
+garmin-grafana,arpanghosh8453/garmin-grafana,https://github.com/arpanghosh8453/garmin-grafana,3107,BSD-3-Clause,database_kv_store,"A Dockerized python Script to fetch Garmin health data and populate that in a InfluxDB Database, for visualization long term health trends with Grafana"
+octodns,octodns/octodns,https://github.com/octodns/octodns,3679,MIT,network_protocol,Tools for managing DNS across multiple providers
+llm-compressor,vllm-project/llm-compressor,https://github.com/vllm-project/llm-compressor,3100,Apache-2.0,compression,Transformers-compatible library for applying various compression algorithms to LLMs for optimized deployment with vLLM
+opal,permitio/opal,https://github.com/permitio/opal,5447,Apache-2.0,network_protocol,"Policy and data administration, distribution, and real-time updates on top of Policy Agents (OPA, Cedar, ...)"
+scientific-agent-skills,K-Dense-AI/scientific-agent-skills,https://github.com/K-Dense-AI/scientific-agent-skills,18645,MIT,database_kv_store,"A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing."
+cattrs,python-attrs/cattrs,https://github.com/python-attrs/cattrs,1023,MIT,serialization,"Composable custom class converters for attrs, dataclasses and friends."
+requests-cache,requests-cache/requests-cache,https://github.com/requests-cache/requests-cache,1490,BSD-2-Clause,network_protocol,Persistent HTTP cache for python requests
+Flask-AppBuilder,dpgaspar/Flask-AppBuilder,https://github.com/dpgaspar/Flask-AppBuilder,4947,BSD-3-Clause,database_kv_store,"Simple and rapid application development framework, built on top of Flask. includes detailed security, auto CRUD generation for your models, google charts and much more. Demo (login with guest/welcome) - http://flaskappbuilder.pythonanywhere.com/"
+lark,lark-parser/lark,https://github.com/lark-parser/lark,5853,MIT,data_format_parser,"Lark is a parsing toolkit for Python, built with a focus on ergonomics, performance and modularity."
+nncf,openvinotoolkit/nncf,https://github.com/openvinotoolkit/nncf,1149,Apache-2.0,compression,Neural Network Compression Framework for enhanced OpenVINO™ inference
+odmantic,art049/odmantic,https://github.com/art049/odmantic,1170,ISC,database_kv_store,Sync and Async ODM (Object Document Mapper) for MongoDB based on python type hints
+QuantDinger,brokermr810/QuantDinger,https://github.com/brokermr810/QuantDinger,1152,Apache-2.0,database_kv_store,"Open-source AI-driven quantitative trading platform for crypto, stocks, and forex with backtesting, live trading, market data, and multi-agent research."
+aio-pika,mosquito/aio-pika,https://github.com/mosquito/aio-pika,1460,Apache-2.0,database_kv_store,AMQP 0.9 client designed for asyncio and humans.
+fiftyone,voxel51/fiftyone,https://github.com/voxel51/fiftyone,10581,Apache-2.0,search_indexing,Refine high-quality datasets and visual AI models
+pypika,kayak/pypika,https://github.com/kayak/pypika,2900,Apache-2.0,database_kv_store,PyPika is a python SQL query builder that exposes the full richness of the SQL language using a syntax that reflects the resulting query. PyPika excels at all sorts of SQL queries but is especially useful for data analysis.
+vcrpy,kevin1024/vcrpy,https://github.com/kevin1024/vcrpy,2957,MIT,network_protocol,Automatically mock your HTTP interactions to simplify and speed up testing
+libtmux,tmux-python/libtmux,https://github.com/tmux-python/libtmux,1160,MIT,text_processing,⚙️ Python API / wrapper for tmux
+faststream,ag2ai/faststream,https://github.com/ag2ai/faststream,5109,Apache-2.0,network_protocol,"FastStream is a powerful and easy-to-use asynchronous Python framework for building asynchronous services interacting with event streams such as Apache Kafka, RabbitMQ, NATS and Redis."
+algorithms,keon/algorithms,https://github.com/keon/algorithms,25418,MIT,search_indexing,Minimal examples of data structures and algorithms in Python
+cronboard,antoniorodr/cronboard,https://github.com/antoniorodr/cronboard,1313,Apache-2.0,text_processing,A terminal-based dashboard for managing cron jobs locally and on servers.
+dooit,dooit-org/dooit,https://github.com/dooit-org/dooit,2865,MIT,text_processing,An awesome TUI todo manager
+llmware,llmware-ai/llmware,https://github.com/llmware-ai/llmware,14856,Apache-2.0,database_kv_store,"Unified framework for building enterprise RAG pipelines with small, specialized models"
+django-import-export,django-import-export/django-import-export,https://github.com/django-import-export/django-import-export,3314,BSD-2-Clause,data_format_parser,Django application and library for importing and exporting data with admin integration.
+DB-GPT,eosphoros-ai/DB-GPT,https://github.com/eosphoros-ai/DB-GPT,18527,MIT,database_kv_store,open-source agentic AI data assistant for the next generation of AI + Data products.
+fugue,fugue-project/fugue,https://github.com/fugue-project/fugue,2150,Apache-2.0,database_kv_store,"A unified interface for distributed computing. Fugue executes SQL, Python, Pandas, and Polars code on Spark, Dask and Ray without any rewrites."
+sie,superlinked/sie,https://github.com/superlinked/sie,1524,Apache-2.0,search_indexing,"Superlinked Inference Engine is an Open-source inference server and production cluster for embeddings, reranking, and extraction."
+PyPDFForm,chinapandaman/PyPDFForm,https://github.com/chinapandaman/PyPDFForm,1248,MIT,database_kv_store,:fire: The Python library for PDF forms.
+DeepAnalyze,ruc-datalab/DeepAnalyze,https://github.com/ruc-datalab/DeepAnalyze,4013,MIT,database_kv_store,DeepAnalyze is the first agentic LLM for autonomous data science. 🎈你的AI数据分析师，自动分析大量数据，一键生成专业分析报告！
+core,home-assistant/core,https://github.com/home-assistant/core,86056,Apache-2.0,network_protocol,:house_with_garden: Open source home automation that puts local control and privacy first.
+spack,spack/spack,https://github.com/spack/spack,4999,Apache-2.0,database_kv_store,"A flexible package manager that supports multiple versions, configurations, platforms, and compilers."
+PaddleNLP,PaddlePaddle/PaddleNLP,https://github.com/PaddlePaddle/PaddleNLP,12935,Apache-2.0,compression,Easy-to-use and powerful LLM and SLM library with awesome model zoo.
+omegaconf,omry/omegaconf,https://github.com/omry/omegaconf,2378,BSD-3-Clause,data_format_parser,Flexible Python configuration system. The last one you will ever need.
+onnxmltools,onnx/onnxmltools,https://github.com/onnx/onnxmltools,1144,Apache-2.0,database_kv_store,ONNXMLTools enables conversion of models to ONNX
+FinanceDatabase,JerBouma/FinanceDatabase,https://github.com/JerBouma/FinanceDatabase,7451,MIT,database_kv_store,"This is a database of 300.000+ symbols containing Equities, ETFs, Funds, Indices, Currencies, Cryptocurrencies and Money Markets."
+ui-ux-pro-max-skill,nextlevelbuilder/ui-ux-pro-max-skill,https://github.com/nextlevelbuilder/ui-ux-pro-max-skill,66408,MIT,text_processing,An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms
+datasketch,ekzhu/datasketch,https://github.com/ekzhu/datasketch,2902,MIT,search_indexing,"MinHash, LSH, LSH Forest, Weighted MinHash, HyperLogLog, HyperLogLog++, LSH Ensemble and HNSW"
+pyparsing,pyparsing/pyparsing,https://github.com/pyparsing/pyparsing,2467,MIT,database_kv_store,Python library for creating PEG parsers
+elasticsearch-py,elastic/elasticsearch-py,https://github.com/elastic/elasticsearch-py,4370,Apache-2.0,search_indexing,Official Python client for Elasticsearch
+ibis,ibis-project/ibis,https://github.com/ibis-project/ibis,6502,Apache-2.0,database_kv_store,the portable Python dataframe library
+GitPython,gitpython-developers/GitPython,https://github.com/gitpython-developers/GitPython,5103,BSD-3-Clause,database_kv_store,GitPython is a python library used to interact with Git repositories.
+msgspec,jcrist/msgspec,https://github.com/jcrist/msgspec,3696,BSD-3-Clause,serialization,"A fast serialization and validation library, with builtin support for JSON, MessagePack, YAML, and TOML"
+DataProfiler,capitalone/DataProfiler,https://github.com/capitalone/DataProfiler,1553,Apache-2.0,data_format_parser,"What's in your data? Extract schema, statistics and entities from datasets"
+mage-ai,mage-ai/mage-ai,https://github.com/mage-ai/mage-ai,8702,Apache-2.0,database_kv_store,"🧙 Build, run, and manage data pipelines for integrating and transforming data."
+gel,geldata/gel,https://github.com/geldata/gel,14090,Apache-2.0,database_kv_store,"Gel supercharges Postgres with a modern data model, graph queries, Auth & AI solutions, and much more."
+starlette,Kludex/starlette,https://github.com/Kludex/starlette,12212,BSD-3-Clause,network_protocol,The little ASGI framework that shines. 🌟
+full-stack-ai-agent-template,vstorm-co/full-stack-ai-agent-template,https://github.com/vstorm-co/full-stack-ai-agent-template,1032,MIT,network_protocol,"Full-stack AI app generator — FastAPI + Next.js with agents, RAG, streaming, auth, and 20+ integrations out of the box."
+nba_api,swar/nba_api,https://github.com/swar/nba_api,3566,MIT,database_kv_store,An API Client package to access the APIs for NBA.com
+pgsync,toluaina/pgsync,https://github.com/toluaina/pgsync,1392,MIT,database_kv_store,Postgres to Elasticsearch/OpenSearch sync
+client-python,massive-com/client-python,https://github.com/massive-com/client-python,1402,MIT,network_protocol,The official Python client library for the Massive.com REST and WebSocket API.
+python-slack-sdk,slackapi/python-slack-sdk,https://github.com/slackapi/python-slack-sdk,3999,MIT,network_protocol,Slack Developer Kit for Python
+piccolo,piccolo-orm/piccolo,https://github.com/piccolo-orm/piccolo,1884,MIT,database_kv_store,"A fast, user friendly ORM and query builder which supports asyncio."
+pygraphistry,graphistry/pygraphistry,https://github.com/graphistry/pygraphistry,2471,BSD-3-Clause,data_format_parser,"PyGraphistry is a Python library to quickly load, shape, embed, and explore big graphs with the GPU-accelerated Graphistry visual graph analyzer"
+pixeltable,pixeltable/pixeltable,https://github.com/pixeltable/pixeltable,1544,Apache-2.0,database_kv_store,"Data Infrastructure providing a declarative, incremental approach for multimodal AI workloads."
+sqlmodel,fastapi/sqlmodel,https://github.com/fastapi/sqlmodel,17832,MIT,database_kv_store,"SQL databases in Python, designed for simplicity, compatibility, and robustness."
+cleanlab,cleanlab/cleanlab,https://github.com/cleanlab/cleanlab,11432,Apache-2.0,database_kv_store,"Cleanlab's open-source library is the standard data-centric AI package for data quality and machine learning with messy, real-world data and labels."
+bolt-python,slackapi/bolt-python,https://github.com/slackapi/bolt-python,1290,MIT,network_protocol,A framework to build Slack apps using Python
+outlines,dottxt-ai/outlines,https://github.com/dottxt-ai/outlines,13669,Apache-2.0,text_processing,Structured Outputs
+thingsboard-gateway,thingsboard/thingsboard-gateway,https://github.com/thingsboard/thingsboard-gateway,2114,Apache-2.0,network_protocol,"Open-source IoT Gateway - integrates devices connected to legacy and third-party systems with ThingsBoard IoT Platform using Modbus, CAN bus, BACnet, BLE, OPC-UA, MQTT, ODBC and REST protocols."
+Flask-SocketIO,miguelgrinberg/Flask-SocketIO,https://github.com/miguelgrinberg/Flask-SocketIO,5507,MIT,network_protocol,Socket.IO integration for Flask applications.
+telegram-phone-number-checker,bellingcat/telegram-phone-number-checker,https://github.com/bellingcat/telegram-phone-number-checker,1685,MIT,text_processing,Check if phone numbers are connected to Telegram accounts.
+Director,video-db/Director,https://github.com/video-db/Director,1359,MIT,search_indexing,AI video agents framework for next-gen video interactions and workflows.
+rdflib,RDFLib/rdflib,https://github.com/RDFLib/rdflib,2428,BSD-3-Clause,database_kv_store,"RDFLib is a Python library for working with RDF, a simple yet powerful language for representing information."
+fastembed,qdrant/fastembed,https://github.com/qdrant/fastembed,2866,Apache-2.0,search_indexing,"Fast, Accurate, Lightweight Python library to make State of the Art Embedding"
+asyncpg,MagicStack/asyncpg,https://github.com/MagicStack/asyncpg,8002,Apache-2.0,database_kv_store,A fast PostgreSQL Database Client Library for Python/asyncio.
+python-mss,BoboTiG/python-mss,https://github.com/BoboTiG/python-mss,1257,MIT,database_kv_store,An ultra fast cross-platform multiple screenshots module in pure Python using ctypes.
+tesserocr,sirfz/tesserocr,https://github.com/sirfz/tesserocr,2162,MIT,database_kv_store,A Python wrapper for the tesseract-ocr API
+mongo-python-driver,mongodb/mongo-python-driver,https://github.com/mongodb/mongo-python-driver,4340,Apache-2.0,database_kv_store,PyMongo - the Official MongoDB Python driver
+chatterbot-corpus,gunthercox/chatterbot-corpus,https://github.com/gunthercox/chatterbot-corpus,1411,BSD-3-Clause,data_format_parser,A multilingual dialog corpus
+urllib3,urllib3/urllib3,https://github.com/urllib3/urllib3,4018,MIT,database_kv_store,urllib3 is a user-friendly HTTP client library for Python

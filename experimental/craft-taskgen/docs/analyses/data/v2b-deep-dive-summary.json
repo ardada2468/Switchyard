@@ -1,0 +1,822 @@
+{
+  "n_trials": 364,
+  "n_models": 4,
+  "a1_2x2_thr0.8": {
+    "by_model": {
+      "claude-code/aws/anthropic/bedrock-claude-opus-4-7 / effort=xhigh": {
+        "rt": 11,
+        "rf": 20,
+        "nt": 34,
+        "nf": 27,
+        "read_enough_rate": 0.33695652173913043,
+        "resolved_given_read_enough": 0.3548387096774194,
+        "resolved_given_read_poor": 0.5573770491803278
+      },
+      "codex/openai/openai/gpt-5.5 / effort=xhigh": {
+        "rt": 36,
+        "rf": 22,
+        "nt": 16,
+        "nf": 16,
+        "read_enough_rate": 0.6444444444444445,
+        "resolved_given_read_enough": 0.6206896551724138,
+        "resolved_given_read_poor": 0.5
+      },
+      "opencode/nvidia/azure/anthropic/claude-haiku-4-5 / effort=medium": {
+        "rt": 5,
+        "rf": 24,
+        "nt": 18,
+        "nf": 44,
+        "read_enough_rate": 0.31868131868131866,
+        "resolved_given_read_enough": 0.1724137931034483,
+        "resolved_given_read_poor": 0.2903225806451613
+      },
+      "opencode/vllm/model": {
+        "rt": 3,
+        "rf": 27,
+        "nt": 9,
+        "nf": 52,
+        "read_enough_rate": 0.32967032967032966,
+        "resolved_given_read_enough": 0.1,
+        "resolved_given_read_poor": 0.14754098360655737
+      }
+    },
+    "overall": {
+      "rt": 55,
+      "rf": 93,
+      "nt": 77,
+      "nf": 139,
+      "resolved_given_read_enough": 0.3716216216216216,
+      "resolved_given_read_poor": 0.35648148148148145
+    },
+    "threshold": 0.8
+  },
+  "a1_2x2_thr1.0": {
+    "by_model": {
+      "claude-code/aws/anthropic/bedrock-claude-opus-4-7 / effort=xhigh": {
+        "rt": 8,
+        "rf": 12,
+        "nt": 37,
+        "nf": 35,
+        "read_enough_rate": 0.21739130434782608,
+        "resolved_given_read_enough": 0.4,
+        "resolved_given_read_poor": 0.5138888888888888
+      },
+      "codex/openai/openai/gpt-5.5 / effort=xhigh": {
+        "rt": 25,
+        "rf": 19,
+        "nt": 27,
+        "nf": 19,
+        "read_enough_rate": 0.4888888888888889,
+        "resolved_given_read_enough": 0.5681818181818182,
+        "resolved_given_read_poor": 0.5869565217391305
+      },
+      "opencode/nvidia/azure/anthropic/claude-haiku-4-5 / effort=medium": {
+        "rt": 5,
+        "rf": 13,
+        "nt": 18,
+        "nf": 55,
+        "read_enough_rate": 0.1978021978021978,
+        "resolved_given_read_enough": 0.2777777777777778,
+        "resolved_given_read_poor": 0.2465753424657534
+      },
+      "opencode/vllm/model": {
+        "rt": 2,
+        "rf": 20,
+        "nt": 10,
+        "nf": 59,
+        "read_enough_rate": 0.24175824175824176,
+        "resolved_given_read_enough": 0.09090909090909091,
+        "resolved_given_read_poor": 0.14492753623188406
+      }
+    },
+    "overall": {
+      "rt": 40,
+      "rf": 64,
+      "nt": 92,
+      "nf": 168,
+      "resolved_given_read_enough": 0.38461538461538464,
+      "resolved_given_read_poor": 0.35384615384615387
+    },
+    "threshold": 1.0
+  },
+  "a2_total_files": {
+    "by_model": {
+      "claude-code/aws/anthropic/bedrock-claude-opus-4-7 / effort=xhigh": {
+        "resolved_mean": 43.577777777777776,
+        "resolved_median": 42,
+        "resolved_n": 45,
+        "failed_mean": 51.765957446808514,
+        "failed_median": 52,
+        "failed_n": 47
+      },
+      "codex/openai/openai/gpt-5.5 / effort=xhigh": {
+        "resolved_mean": 251.46153846153845,
+        "resolved_median": 153.0,
+        "resolved_n": 52,
+        "failed_mean": 243.8421052631579,
+        "failed_median": 205.5,
+        "failed_n": 38
+      },
+      "opencode/nvidia/azure/anthropic/claude-haiku-4-5 / effort=medium": {
+        "resolved_mean": 49.17391304347826,
+        "resolved_median": 45,
+        "resolved_n": 23,
+        "failed_mean": 52.30882352941177,
+        "failed_median": 49.5,
+        "failed_n": 68
+      },
+      "opencode/vllm/model": {
+        "resolved_mean": 41.5,
+        "resolved_median": 35.0,
+        "resolved_n": 12,
+        "failed_mean": 38.88607594936709,
+        "failed_median": 29,
+        "failed_n": 79
+      }
+    }
+  },
+  "a3_read_beyond_gold": {
+    "by_model_outcome": {
+      "codex/openai/openai/gpt-5.5 / effort=xhigh/failed": {
+        "nongold": 236.81578947368422,
+        "test": 58.973684210526315,
+        "doc": 23.763157894736842
+      },
+      "codex/openai/openai/gpt-5.5 / effort=xhigh/resolved": {
+        "nongold": 245.3653846153846,
+        "test": 110.11538461538461,
+        "doc": 16.615384615384617
+      },
+      "claude-code/aws/anthropic/bedrock-claude-opus-4-7 / effort=xhigh/failed": {
+        "nongold": 45.8936170212766,
+        "test": 21.21276595744681,
+        "doc": 1.5319148936170213
+      },
+      "claude-code/aws/anthropic/bedrock-claude-opus-4-7 / effort=xhigh/resolved": {
+        "nongold": 39.48888888888889,
+        "test": 13.511111111111111,
+        "doc": 1.1333333333333333
+      },
+      "opencode/nvidia/azure/anthropic/claude-haiku-4-5 / effort=medium/failed": {
+        "nongold": 47.05882352941177,
+        "test": 17.058823529411764,
+        "doc": 1.588235294117647
+      },
+      "opencode/nvidia/azure/anthropic/claude-haiku-4-5 / effort=medium/resolved": {
+        "nongold": 45.34782608695652,
+        "test": 17.73913043478261,
+        "doc": 2.130434782608696
+      },
+      "opencode/vllm/model/failed": {
+        "nongold": 34.18987341772152,
+        "test": 11.405063291139241,
+        "doc": 0.7974683544303798
+      },
+      "opencode/vllm/model/resolved": {
+        "nongold": 37.416666666666664,
+        "test": 15.166666666666666,
+        "doc": 0.3333333333333333
+      }
+    }
+  },
+  "a4_effective_gold": {
+    "summary": {
+      "tasks_with_resolved": 60,
+      "mean_approx_adjacent": 134.5,
+      "median_approx_adjacent": 78.8
+    },
+    "per_task_extras": [
+      {
+        "task": "t2v3-ADebd7-toolset-name-prefix",
+        "gold_n": 2,
+        "succ_mean_examined": 30,
+        "approx_adjacent": 28
+      },
+      {
+        "task": "t2v3-AN4f86-angrop-aarch64-support",
+        "gold_n": 19,
+        "succ_mean_examined": 46,
+        "approx_adjacent": 27
+      },
+      {
+        "task": "t2v3-BL60e2-http-client-protocol-refactor",
+        "gold_n": 18,
+        "succ_mean_examined": 161.5,
+        "approx_adjacent": 143.5
+      },
+      {
+        "task": "t2v3-BLa5a2-pluggable-binding-converters",
+        "gold_n": 7,
+        "succ_mean_examined": 279,
+        "approx_adjacent": 272
+      },
+      {
+        "task": "t2v3-BLbca5-mount-prefix-propagation",
+        "gold_n": 2,
+        "succ_mean_examined": 111,
+        "approx_adjacent": 109
+      },
+      {
+        "task": "t2v3-CA6bc4-cattrs-annotated-overrides",
+        "gold_n": 7,
+        "succ_mean_examined": 80.3,
+        "approx_adjacent": 73.3
+      },
+      {
+        "task": "t2v3-CA872b-splits-during-bed-and-breakfast",
+        "gold_n": 2,
+        "succ_mean_examined": 98,
+        "approx_adjacent": 96
+      },
+      {
+        "task": "t2v3-CH78cb-chat-profile-config-overrides",
+        "gold_n": 7,
+        "succ_mean_examined": 137.8,
+        "approx_adjacent": 130.8
+      },
+      {
+        "task": "t2v3-CHe590-ask-file-upload-validation",
+        "gold_n": 19,
+        "succ_mean_examined": 100,
+        "approx_adjacent": 81
+      },
+      {
+        "task": "t2v3-CR1c25-django-settings-forward-ref",
+        "gold_n": 1,
+        "succ_mean_examined": 43.3,
+        "approx_adjacent": 42.3
+      },
+      {
+        "task": "t2v3-CUf582-ws-control-frame-filtering",
+        "gold_n": 6,
+        "succ_mean_examined": 56,
+        "approx_adjacent": 50
+      },
+      {
+        "task": "t2v3-DA055f-input-model-ref-strategy",
+        "gold_n": 10,
+        "succ_mean_examined": 741.5,
+        "approx_adjacent": 731.5
+      },
+      {
+        "task": "t2v3-DA076a-dace-argument-marshal-refactor",
+        "gold_n": 10,
+        "succ_mean_examined": 88,
+        "approx_adjacent": 78
+      },
+      {
+        "task": "t2v3-DA0f7a-input-model-unserializable-types",
+        "gold_n": 3,
+        "succ_mean_examined": 741.5,
+        "approx_adjacent": 738.5
+      },
+      {
+        "task": "t2v3-DAa2a4-pydantic-v2-alias-choices",
+        "gold_n": 17,
+        "succ_mean_examined": 149,
+        "approx_adjacent": 132
+      },
+      {
+        "task": "t2v3-EL228e-esql-dsl-integration",
+        "gold_n": 13,
+        "succ_mean_examined": 45.5,
+        "approx_adjacent": 32.5
+      },
+      {
+        "task": "t2v3-EV1c73-opportunistic-type2-charging",
+        "gold_n": 6,
+        "succ_mean_examined": 51.5,
+        "approx_adjacent": 45.5
+      },
+      {
+        "task": "t2v3-FA800f-colmodernvbert-multimodal-integration",
+        "gold_n": 7,
+        "succ_mean_examined": 138,
+        "approx_adjacent": 131
+      },
+      {
+        "task": "t2v3-FAe252-publisher-mock-empty-dest",
+        "gold_n": 18,
+        "succ_mean_examined": 129.5,
+        "approx_adjacent": 111.5
+      },
+      {
+        "task": "t2v3-FL8811-nested-pydantic-type-resolution",
+        "gold_n": 1,
+        "succ_mean_examined": 38.5,
+        "approx_adjacent": 37.5
+      },
+      {
+        "task": "t2v3-GD9598-path-umgeometric-inheritance",
+        "gold_n": 6,
+        "succ_mean_examined": 123.5,
+        "approx_adjacent": 117.5
+      },
+      {
+        "task": "t2v3-GR9704-streaming-embed-text-tables",
+        "gold_n": 5,
+        "succ_mean_examined": 129,
+        "approx_adjacent": 124
+      },
+      {
+        "task": "t2v3-HAc618-hatch-pep735-dependency-groups",
+        "gold_n": 5,
+        "succ_mean_examined": 11,
+        "approx_adjacent": 6
+      },
+      {
+        "task": "t2v3-JS37fa-handler-context-propagation",
+        "gold_n": 5,
+        "succ_mean_examined": 40.7,
+        "approx_adjacent": 35.7
+      },
+      {
+        "task": "t2v3-LAac00-circuit-ansatz-ancilla-support",
+        "gold_n": 1,
+        "succ_mean_examined": 80.5,
+        "approx_adjacent": 79.5
+      },
+      {
+        "task": "t2v3-MCf60d-resource-utilization-calculator",
+        "gold_n": 14,
+        "succ_mean_examined": 107,
+        "approx_adjacent": 93
+      },
+      {
+        "task": "t2v3-NI25be-nicegui-keep-alive",
+        "gold_n": 9,
+        "succ_mean_examined": 223.5,
+        "approx_adjacent": 214.5
+      },
+      {
+        "task": "t2v3-NN1ea7-pruning-strip-in-place",
+        "gold_n": 7,
+        "succ_mean_examined": 107.7,
+        "approx_adjacent": 100.7
+      },
+      {
+        "task": "t2v3-OC7096-yaml-include-merge-key",
+        "gold_n": 4,
+        "succ_mean_examined": 38.3,
+        "approx_adjacent": 34.3
+      },
+      {
+        "task": "t2v3-OP166f-file-path-rule-enforcement",
+        "gold_n": 13,
+        "succ_mean_examined": 64.5,
+        "approx_adjacent": 51.5
+      },
+      {
+        "task": "t2v3-OP7ed8-org-disable-type-enum",
+        "gold_n": 12,
+        "succ_mean_examined": 1110,
+        "approx_adjacent": 1098
+      },
+      {
+        "task": "t2v3-OPb2e1-evaluator-chaining-consistency",
+        "gold_n": 11,
+        "succ_mean_examined": 46.3,
+        "approx_adjacent": 35.3
+      },
+      {
+        "task": "t2v3-PI628c-embedding-display-fix",
+        "gold_n": 9,
+        "succ_mean_examined": 44,
+        "approx_adjacent": 35
+      },
+      {
+        "task": "t2v3-PIecf2-piccolo-table-str-abbreviated",
+        "gold_n": 2,
+        "succ_mean_examined": 63,
+        "approx_adjacent": 61
+      },
+      {
+        "task": "t2v3-PY1651-polars-cursor-chunksize-support",
+        "gold_n": 4,
+        "succ_mean_examined": 274,
+        "approx_adjacent": 270
+      },
+      {
+        "task": "t2v3-PY166e-scrolling-container-always-instantiate-b",
+        "gold_n": 7,
+        "succ_mean_examined": 38.5,
+        "approx_adjacent": 31.5
+      },
+      {
+        "task": "t2v3-PY5671-cypher-multi-alias-return",
+        "gold_n": 7,
+        "succ_mean_examined": 336,
+        "approx_adjacent": 329
+      },
+      {
+        "task": "t2v3-PYa0ea-fold-unaryop-constants",
+        "gold_n": 6,
+        "succ_mean_examined": 65,
+        "approx_adjacent": 59
+      },
+      {
+        "task": "t2v3-PYce55-hypergraph-from-edges-return-as",
+        "gold_n": 11,
+        "succ_mean_examined": 129,
+        "approx_adjacent": 118
+      },
+      {
+        "task": "t2v3-QU3fc6-lookup-fields-postgres-upsert",
+        "gold_n": 9,
+        "succ_mean_examined": 205.3,
+        "approx_adjacent": 196.3
+      },
+      {
+        "task": "t2v3-RE900b-vary-secondary-lookup",
+        "gold_n": 4,
+        "succ_mean_examined": 59,
+        "approx_adjacent": 55
+      },
+      {
+        "task": "t2v3-SA5235-ecdsa-remote-function-signing",
+        "gold_n": 22,
+        "succ_mean_examined": 413,
+        "approx_adjacent": 391
+      },
+      {
+        "task": "t2v3-SC22f6-stateful-report-bridging",
+        "gold_n": 3,
+        "succ_mean_examined": 135,
+        "approx_adjacent": 132
+      },
+      {
+        "task": "t2v3-SE8abf-brace-expansion-glob-patterns",
+        "gold_n": 15,
+        "succ_mean_examined": 42.7,
+        "approx_adjacent": 27.7
+      },
+      {
+        "task": "t2v3-SEadf2-gopls-build-context-settings",
+        "gold_n": 13,
+        "succ_mean_examined": 84,
+        "approx_adjacent": 71
+      },
+      {
+        "task": "t2v3-SP229a-spack-concurrent-packages",
+        "gold_n": 28,
+        "succ_mean_examined": 96,
+        "approx_adjacent": 68
+      },
+      {
+        "task": "t2v3-SQ6653-annotated-field-metadata",
+        "gold_n": 1,
+        "succ_mean_examined": 142,
+        "approx_adjacent": 141
+      },
+      {
+        "task": "t2v3-SSd933-cooperative-shutdown-grace-period",
+        "gold_n": 10,
+        "succ_mean_examined": 45.7,
+        "approx_adjacent": 35.7
+      },
+      {
+        "task": "t2v3-SSf831-sse-cooperative-shutdown",
+        "gold_n": 2,
+        "succ_mean_examined": 32.8,
+        "approx_adjacent": 30.8
+      },
+      {
+        "task": "t2v3-SU3637-screen-diffrot-compatibility",
+        "gold_n": 6,
+        "succ_mean_examined": 82.5,
+        "approx_adjacent": 76.5
+      },
+      {
+        "task": "t2v3-SU470d-reproject-preserve-date-obs",
+        "gold_n": 5,
+        "succ_mean_examined": 142,
+        "approx_adjacent": 137
+      },
+      {
+        "task": "t2v3-SUec59-screen-diffrot-compatibility",
+        "gold_n": 6,
+        "succ_mean_examined": 30,
+        "approx_adjacent": 24
+      },
+      {
+        "task": "t2v3-TO0c08-cli-provision-unknown-args",
+        "gold_n": 7,
+        "succ_mean_examined": 135,
+        "approx_adjacent": 128
+      },
+      {
+        "task": "t2v3-TO17d3-tox-sdist-wheel-package-type",
+        "gold_n": 8,
+        "succ_mean_examined": 60.5,
+        "approx_adjacent": 52.5
+      },
+      {
+        "task": "t2v3-TO58e5-tox-fail-fast-option",
+        "gold_n": 5,
+        "succ_mean_examined": 140,
+        "approx_adjacent": 135
+      },
+      {
+        "task": "t2v3-TOe840-tox-toml-install-command",
+        "gold_n": 5,
+        "succ_mean_examined": 159,
+        "approx_adjacent": 154
+      },
+      {
+        "task": "t2v3-TWad40-article-inline-images",
+        "gold_n": 1,
+        "succ_mean_examined": 22,
+        "approx_adjacent": 21
+      },
+      {
+        "task": "t2v3-UV029b-websockets-sansio-keepalive-pings",
+        "gold_n": 2,
+        "succ_mean_examined": 117,
+        "approx_adjacent": 115
+      },
+      {
+        "task": "t2v3-VC1b70-httpcore-sync-async-split",
+        "gold_n": 2,
+        "succ_mean_examined": 47.7,
+        "approx_adjacent": 45.7
+      },
+      {
+        "task": "t2v3-XY5089-bond-outline-per-segment",
+        "gold_n": 3,
+        "succ_mean_examined": 54,
+        "approx_adjacent": 51
+      }
+    ]
+  },
+  "a5_probe_then_edit": {
+    "by_model_outcome": {
+      "codex/openai/openai/gpt-5.5 / effort=xhigh/failed": {
+        "mean_first_edit_step": 39.421052631578945,
+        "mean_probe_fraction": 0.378443578890957,
+        "n": 38
+      },
+      "codex/openai/openai/gpt-5.5 / effort=xhigh/resolved": {
+        "mean_first_edit_step": 36.01960784313726,
+        "mean_probe_fraction": 0.4102821528099175,
+        "n": 51
+      },
+      "claude-code/aws/anthropic/bedrock-claude-opus-4-7 / effort=xhigh/failed": {
+        "mean_first_edit_step": 27.51063829787234,
+        "mean_probe_fraction": 0.5110993153247968,
+        "n": 47
+      },
+      "claude-code/aws/anthropic/bedrock-claude-opus-4-7 / effort=xhigh/resolved": {
+        "mean_first_edit_step": 25.866666666666667,
+        "mean_probe_fraction": 0.5502706992066071,
+        "n": 45
+      },
+      "opencode/nvidia/azure/anthropic/claude-haiku-4-5 / effort=medium/failed": {
+        "mean_first_edit_step": 16.58823529411765,
+        "mean_probe_fraction": 0.2370517770964137,
+        "n": 68
+      },
+      "opencode/nvidia/azure/anthropic/claude-haiku-4-5 / effort=medium/resolved": {
+        "mean_first_edit_step": 15.08695652173913,
+        "mean_probe_fraction": 0.22208195963995184,
+        "n": 23
+      },
+      "opencode/vllm/model/failed": {
+        "mean_first_edit_step": 7.703703703703703,
+        "mean_probe_fraction": 0.304449389335815,
+        "n": 54
+      },
+      "opencode/vllm/model/resolved": {
+        "mean_first_edit_step": 6.583333333333333,
+        "mean_probe_fraction": 0.22994331891548841,
+        "n": 12
+      }
+    }
+  },
+  "a6_edit_locality": {
+    "by_model": {
+      "codex/openai/openai/gpt-5.5 / effort=xhigh": {
+        "pearson_r": -0.015,
+        "n": 90,
+        "mean_examined": 248.2
+      },
+      "claude-code/aws/anthropic/bedrock-claude-opus-4-7 / effort=xhigh": {
+        "pearson_r": 0.001,
+        "n": 92,
+        "mean_examined": 47.8
+      },
+      "opencode/nvidia/azure/anthropic/claude-haiku-4-5 / effort=medium": {
+        "pearson_r": -0.092,
+        "n": 91,
+        "mean_examined": 51.5
+      },
+      "opencode/vllm/model": {
+        "pearson_r": -0.143,
+        "n": 91,
+        "mean_examined": 39.2
+      }
+    }
+  },
+  "a7_failure_mode_by_task": {
+    "n": 64,
+    "buckets": {
+      "F2P_NONE": {
+        "n": 17,
+        "mean_gold_n_files": 2.588235294117647,
+        "mean_gold_diff_lines": 230.8235294117647,
+        "mean_gold_n_functions": 8.058823529411764,
+        "mean_agent_diff_lines": 569.4705882352941
+      },
+      "F2P_PARTIAL": {
+        "n": 45,
+        "mean_gold_n_files": 5.7555555555555555,
+        "mean_gold_diff_lines": 395.31111111111113,
+        "mean_gold_n_functions": 15.088888888888889,
+        "mean_agent_diff_lines": 627.2444444444444
+      }
+    }
+  },
+  "a8_iteration": {
+    "by_model_outcome": {
+      "codex/openai/openai/gpt-5.5 / effort=xhigh/failed": {
+        "mean_edits": 15.81578947368421,
+        "mean_test_runs": 7.894736842105263,
+        "mean_steps": 111.02631578947368,
+        "n": 38
+      },
+      "codex/openai/openai/gpt-5.5 / effort=xhigh/resolved": {
+        "mean_edits": 11.711538461538462,
+        "mean_test_runs": 9.153846153846153,
+        "mean_steps": 91.67307692307692,
+        "n": 52
+      },
+      "claude-code/aws/anthropic/bedrock-claude-opus-4-7 / effort=xhigh/failed": {
+        "mean_edits": 12.085106382978724,
+        "mean_test_runs": 3.8297872340425534,
+        "mean_steps": 54.638297872340424,
+        "n": 47
+      },
+      "claude-code/aws/anthropic/bedrock-claude-opus-4-7 / effort=xhigh/resolved": {
+        "mean_edits": 8.644444444444444,
+        "mean_test_runs": 5.777777777777778,
+        "mean_steps": 48.51111111111111,
+        "n": 45
+      },
+      "opencode/nvidia/azure/anthropic/claude-haiku-4-5 / effort=medium/failed": {
+        "mean_edits": 14.867647058823529,
+        "mean_test_runs": 7.955882352941177,
+        "mean_steps": 75.05882352941177,
+        "n": 68
+      },
+      "opencode/nvidia/azure/anthropic/claude-haiku-4-5 / effort=medium/resolved": {
+        "mean_edits": 15.347826086956522,
+        "mean_test_runs": 9.869565217391305,
+        "mean_steps": 68.82608695652173,
+        "n": 23
+      },
+      "opencode/vllm/model/failed": {
+        "mean_edits": 7.215189873417722,
+        "mean_test_runs": 2.189873417721519,
+        "mean_steps": 25.9873417721519,
+        "n": 79
+      },
+      "opencode/vllm/model/resolved": {
+        "mean_edits": 10.083333333333334,
+        "mean_test_runs": 5.5,
+        "mean_steps": 35.416666666666664,
+        "n": 12
+      }
+    }
+  },
+  "a9_decomposition": {
+    "by_model_outcome": {
+      "codex/openai/openai/gpt-5.5 / effort=xhigh/failed": {
+        "mean_todo_calls": 0,
+        "frac_with_decomposition": 0.0,
+        "n": 38
+      },
+      "codex/openai/openai/gpt-5.5 / effort=xhigh/resolved": {
+        "mean_todo_calls": 0,
+        "frac_with_decomposition": 0.0,
+        "n": 52
+      },
+      "claude-code/aws/anthropic/bedrock-claude-opus-4-7 / effort=xhigh/failed": {
+        "mean_todo_calls": 3.765957446808511,
+        "frac_with_decomposition": 0.8085106382978723,
+        "n": 47
+      },
+      "claude-code/aws/anthropic/bedrock-claude-opus-4-7 / effort=xhigh/resolved": {
+        "mean_todo_calls": 3.2444444444444445,
+        "frac_with_decomposition": 0.7555555555555555,
+        "n": 45
+      },
+      "opencode/nvidia/azure/anthropic/claude-haiku-4-5 / effort=medium/failed": {
+        "mean_todo_calls": 6.220588235294118,
+        "frac_with_decomposition": 1.0,
+        "n": 68
+      },
+      "opencode/nvidia/azure/anthropic/claude-haiku-4-5 / effort=medium/resolved": {
+        "mean_todo_calls": 5.565217391304348,
+        "frac_with_decomposition": 1.0,
+        "n": 23
+      },
+      "opencode/vllm/model/failed": {
+        "mean_todo_calls": 4.89873417721519,
+        "frac_with_decomposition": 0.9746835443037974,
+        "n": 79
+      },
+      "opencode/vllm/model/resolved": {
+        "mean_todo_calls": 5.666666666666667,
+        "frac_with_decomposition": 0.9166666666666666,
+        "n": 12
+      }
+    }
+  },
+  "a10_thrashing": {
+    "by_model_outcome": {
+      "codex/openai/openai/gpt-5.5 / effort=xhigh/failed": {
+        "mean_thrash_rate": 0.4757971852708695,
+        "mean_files_edited_2plus": 3.4210526315789473,
+        "n": 38
+      },
+      "codex/openai/openai/gpt-5.5 / effort=xhigh/resolved": {
+        "mean_thrash_rate": 0.4713309660425045,
+        "mean_files_edited_2plus": 2.326923076923077,
+        "n": 52
+      },
+      "claude-code/aws/anthropic/bedrock-claude-opus-4-7 / effort=xhigh/failed": {
+        "mean_thrash_rate": 0.5760390023687896,
+        "mean_files_edited_2plus": 2.7872340425531914,
+        "n": 47
+      },
+      "claude-code/aws/anthropic/bedrock-claude-opus-4-7 / effort=xhigh/resolved": {
+        "mean_thrash_rate": 0.5524054268171915,
+        "mean_files_edited_2plus": 2.2666666666666666,
+        "n": 45
+      },
+      "opencode/nvidia/azure/anthropic/claude-haiku-4-5 / effort=medium/failed": {
+        "mean_thrash_rate": 0.5634230965113318,
+        "mean_files_edited_2plus": 2.676470588235294,
+        "n": 68
+      },
+      "opencode/nvidia/azure/anthropic/claude-haiku-4-5 / effort=medium/resolved": {
+        "mean_thrash_rate": 0.6178242047807265,
+        "mean_files_edited_2plus": 2.4347826086956523,
+        "n": 23
+      },
+      "opencode/vllm/model/failed": {
+        "mean_thrash_rate": 0.3990015610268775,
+        "mean_files_edited_2plus": 1.5949367088607596,
+        "n": 79
+      },
+      "opencode/vllm/model/resolved": {
+        "mean_thrash_rate": 0.6680555555555555,
+        "mean_files_edited_2plus": 1.9166666666666667,
+        "n": 12
+      }
+    }
+  },
+  "a12_self_introspection": {
+    "by_model_outcome": {
+      "codex/openai/openai/gpt-5.5 / effort=xhigh/failed": {
+        "mean_mention_count": 2.5526315789473686,
+        "frac_any_mention": 0.8947368421052632,
+        "n": 38
+      },
+      "codex/openai/openai/gpt-5.5 / effort=xhigh/resolved": {
+        "mean_mention_count": 1.9423076923076923,
+        "frac_any_mention": 0.7692307692307693,
+        "n": 52
+      },
+      "claude-code/aws/anthropic/bedrock-claude-opus-4-7 / effort=xhigh/failed": {
+        "mean_mention_count": 0,
+        "frac_any_mention": 0,
+        "n": 47
+      },
+      "claude-code/aws/anthropic/bedrock-claude-opus-4-7 / effort=xhigh/resolved": {
+        "mean_mention_count": 0,
+        "frac_any_mention": 0,
+        "n": 45
+      },
+      "opencode/nvidia/azure/anthropic/claude-haiku-4-5 / effort=medium/failed": {
+        "mean_mention_count": 0.9558823529411765,
+        "frac_any_mention": 0.5588235294117647,
+        "n": 68
+      },
+      "opencode/nvidia/azure/anthropic/claude-haiku-4-5 / effort=medium/resolved": {
+        "mean_mention_count": 0.8695652173913043,
+        "frac_any_mention": 0.4782608695652174,
+        "n": 23
+      },
+      "opencode/vllm/model/failed": {
+        "mean_mention_count": 0.35443037974683544,
+        "frac_any_mention": 0.22784810126582278,
+        "n": 79
+      },
+      "opencode/vllm/model/resolved": {
+        "mean_mention_count": 0.4166666666666667,
+        "frac_any_mention": 0.4166666666666667,
+        "n": 12
+      }
+    }
+  }
+}

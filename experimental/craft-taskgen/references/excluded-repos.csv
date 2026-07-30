@@ -1,0 +1,13 @@
+short_name,github_repo,github_url,stars,license,domain,description
+flask,pallets/flask,https://github.com/pallets/flask,71430,BSD-3-Clause,Web/API,The Python micro framework for building web applications.
+matplotlib,matplotlib/matplotlib,https://github.com/matplotlib/matplotlib,22719,None,Data/DB,matplotlib: plotting with Python
+pylint,pylint-dev/pylint,https://github.com/pylint-dev/pylint,5673,GPL-2.0,Other,It's not just a linter that annoys you!
+pytest,pytest-dev/pytest,https://github.com/pytest-dev/pytest,13770,MIT,Other,"The pytest framework makes it easy to write small tests, yet scales to support complex functional testing"
+requests,psf/requests,https://github.com/psf/requests,53900,Apache-2.0,Web/API,"A simple, yet elegant, HTTP library."
+scikit-learn,scikit-learn/scikit-learn,https://github.com/scikit-learn/scikit-learn,65843,BSD-3-Clause,AI/ML,scikit-learn: machine learning in Python
+seaborn,mwaskom/seaborn,https://github.com/mwaskom/seaborn,13813,BSD-3-Clause,Data/DB,Statistical data visualization in Python
+sphinx,sphinx-doc/sphinx,https://github.com/sphinx-doc/sphinx,7774,NOASSERTION,Web/API,The Sphinx documentation generator
+django,django/django,https://github.com/django/django,87281,BSD-3-Clause,Web/API,The Web framework for perfectionists with deadlines.
+astropy,astropy/astropy,https://github.com/astropy/astropy,5122,BSD-3-Clause,Other,Astronomy and astrophysics core library
+xarray,pydata/xarray,https://github.com/pydata/xarray,4131,Apache-2.0,Data/DB,N-D labeled arrays and datasets in Python
+sympy,sympy/sympy,https://github.com/sympy/sympy,14573,NOASSERTION,Infra/System,A computer algebra system written in pure Python

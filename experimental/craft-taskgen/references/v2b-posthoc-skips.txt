@@ -1,0 +1,22 @@
+# v2b post-hoc F2P test skip list
+#
+# Tests that were added to a task's `tests/f2p_skip.txt` AFTER baseline runs
+# were performed. When scoring historical runs that predate the skip-list
+# update, these tests are filtered as if they had been in the task's
+# f2p_skip.txt at run time — so historical pass-rates can be compared
+# apples-to-apples against forward-going runs.
+#
+# Source of truth for forward-going runs is the per-task
+# `tests/f2p_skip.txt` in craft-bench. This file is the rescoring backstop
+# for historical data only. Every entry here MUST also be present in the
+# corresponding task's `tests/f2p_skip.txt` in craft-bench main.
+#
+# Format: <task_id>\t<test_path>
+# Comments start with `#`.
+# Empty lines are ignored.
+
+# Added 2026-05-01 after multi-judge deep-dive triage (opus 4.5/4.7,
+# gpt-5.5, glm-5.1). Companion change: craft-bench MR adding both entries
+# to the corresponding tests/f2p_skip.txt files.
+t2v3-HU0299-webhooks-cli-subcommand	tests/test_cli.py::TestWebhooksCommand::test_update
+t2v3-SPcd9f-jobserver-dynamic-parallelism	lib/spack/spack/test/cmd/install.py::test_cdash_upload_build_error[mock_archive0-new]
