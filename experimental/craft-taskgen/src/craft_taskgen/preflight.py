@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 """Pre-flight checks for long-running pipeline invocations.
 
 Run `craft-taskgen-preflight --candidates 'candidates/*.json'` before a long,

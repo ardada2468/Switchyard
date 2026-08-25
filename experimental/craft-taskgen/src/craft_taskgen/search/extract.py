@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 """Parse Tools-track task artifacts (solve.sh, gold_reference_tests.py, instruction.md).
 
 Ported from craft-bench scripts/search/extract_t2_gold.py.

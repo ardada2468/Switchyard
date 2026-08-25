@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 """Smoke test for llm_judge against the real NVIDIA gateway.
 
 Exercises each model we plan to use, with a simple schema, and reports

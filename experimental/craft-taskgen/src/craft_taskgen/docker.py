@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 """Docker helpers for the task generation pipeline.
 
 Builds task Docker images, runs F2P/P2P 2-run classification, and executes

@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 """Convert synthesized search tasks (from Tools problems) to Harbor task directories.
 
 Bridges Tools-track environments with Search scoring:

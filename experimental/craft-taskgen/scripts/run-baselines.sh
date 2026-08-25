@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
 # Launch a Harbor baseline run (one agent, one model) against a task dataset.
 #
 # Harbor itself walks the dataset and runs N trials in parallel

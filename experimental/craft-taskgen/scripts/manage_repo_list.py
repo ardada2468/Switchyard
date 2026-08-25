@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 """Add or remove repos from a craft-repos-style CSV, then dedup and swebench-check.
 
 Reads from the latest references/repo_list_v{N}.csv and writes to v{N+1}.csv.

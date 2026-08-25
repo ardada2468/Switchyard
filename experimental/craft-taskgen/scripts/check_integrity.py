@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 """check_integrity.py — scan agent trajectories for benchmark-integrity violations.
 
 Focused on craft-bench / Harbor trial directories. Two transcript formats are

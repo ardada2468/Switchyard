@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 """Filter a recent run's state.json to rejected tasks and emit a flat CSV
 in the shape ``scripts/calibrate-alignment.py`` expects.
 

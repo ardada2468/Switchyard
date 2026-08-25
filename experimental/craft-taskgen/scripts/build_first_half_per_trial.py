@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 """build_first_half_per_trial.py — emit a per-trial CSV using only signals
 extracted from the FIRST HALF of each trajectory.
 

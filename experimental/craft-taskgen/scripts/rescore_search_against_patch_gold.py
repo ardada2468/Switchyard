@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 """rescore_search_against_patch_gold.py — re-score search trials against patch-derived gold.
 
 Each search trial's `verifier/reward.json` already contains the agent's

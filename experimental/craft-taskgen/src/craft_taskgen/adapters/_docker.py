@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 """Shared Dockerfile construction for all track adapters.
 
 Produces a self-contained Dockerfile for a Harbor task with a digest-pinned

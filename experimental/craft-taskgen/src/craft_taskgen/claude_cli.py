@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 """Claude CLI helper and auto-fix logic for the task generation pipeline.
 
 Gateway-only policy: every `claude -p` invocation must route through the

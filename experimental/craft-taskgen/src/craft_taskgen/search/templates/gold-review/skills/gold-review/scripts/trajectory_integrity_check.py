@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 """Trajectory integrity checks for CRAFT Search gold data review.
 
 Examines agent trajectories for cheating, contamination, and validity issues.

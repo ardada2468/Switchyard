@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 """Verifier for gold-review batch verdicts.
 
 Reads /app/verdicts.json (agent output) and /tests/tasks_to_review.json (expected tasks).

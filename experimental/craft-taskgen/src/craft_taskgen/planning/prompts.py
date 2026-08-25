@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 """Prompt templates for gold-plan synthesis.
 
 Lifted from craft-iterative-planning/scraper/synthesize_parallel.py, which

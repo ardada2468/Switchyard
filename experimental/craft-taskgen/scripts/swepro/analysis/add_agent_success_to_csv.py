@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 """Add per-task agent success to the CRAFT analysis CSV.
 
 The CSV uses full SWE-bench instance ids. The aggregate result.json stores

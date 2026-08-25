@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 """score_e2e_implicit_search.py — extract & score implicit localization in e2e trajectories.
 
 The premise: when a coding agent solves an end-to-end task, it implicitly

@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 """Binary F2P + P2P reward gate for a planning task.
 
 reward = 1.0 iff every FAIL_TO_PASS test passes AND every PASS_TO_PASS test passes.

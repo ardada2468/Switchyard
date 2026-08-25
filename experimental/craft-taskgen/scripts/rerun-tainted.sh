@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
 # rerun-tainted.sh — re-run tainted Harbor trials under a network firewall.
 #
 # Inputs: one or more Harbor run-group dirs (the parent of trial dirs, e.g.

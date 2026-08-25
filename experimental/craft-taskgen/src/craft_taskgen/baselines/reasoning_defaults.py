@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 """Default reasoning_effort for baseline smoke-test (agent, model) combos.
 
 One row per pair, aligned columns. Grep for the agent name (e.g. `codex`) to

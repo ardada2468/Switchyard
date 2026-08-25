@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 """Roll back NEEDS_FIX tasks whose failure looks infra-caused (not quality).
 
 One-shot ops tool for recovering a pipeline run where disk pressure / stuck

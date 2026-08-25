@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 """Shared helpers for writing search-dimension Harbor task directories.
 
 Used by both the from-T2 converter (`search/harbor.py`) and the native converter

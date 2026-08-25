@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 """Authoritative rubric text for CRAFT pipeline judge prompts.
 
 All rubric content lives here as module-level string constants. Prompts in

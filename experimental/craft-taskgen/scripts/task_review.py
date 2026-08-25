@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 """task_review.py — review-artifact generator for multi-trial Harbor task results.
 
 Reads Harbor trial directories (each with `verifier/reward.json` + `result.json`),

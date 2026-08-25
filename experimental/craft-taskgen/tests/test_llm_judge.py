@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 """Unit tests for `craft_taskgen.llm_judge`.
 
 Mocks `litellm.acompletion` to exercise:

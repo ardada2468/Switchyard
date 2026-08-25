@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 """Shared pytest fixtures.
 
 Sets fake gateway credentials for every test so `_build_gateway_env()` doesn't

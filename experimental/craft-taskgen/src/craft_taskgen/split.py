@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 """Balance candidate files into N shards for running across multiple machines.
 
 Sharding is balanced by total candidate count (not file count) using a greedy

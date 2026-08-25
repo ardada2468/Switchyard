@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 """Search pipeline orchestrator: runs search steps sequentially with state management.
 
 Called by the main pipeline.py when --dimension search is used.

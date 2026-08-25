@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 """Native Search Harbor converter.
 
 Reads TaskCandidate JSON files produced by the search synthesis pipeline and

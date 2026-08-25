@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 """Gold-plan synthesis.
 
 Per candidate: one Opus 4.6 call over (spec + PR description + PR diff) →

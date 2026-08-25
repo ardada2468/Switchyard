@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 """Convert rerun-accepts-v2 cohort (per-repo JSON + MANIFEST.csv) into the
 flat CSV shape that ``scripts/calibrate-alignment.py`` consumes.
 

@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 """summarize_baseline.py — F2P / P2P / %resolved report from Harbor trial dirs.
 
 Walks one or more trial roots, groups trials by model, and emits a markdown

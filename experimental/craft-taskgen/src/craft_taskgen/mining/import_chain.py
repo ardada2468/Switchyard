@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 """Build an import graph by walking import statements in Python source files.
 
 Handles both ``import X`` and ``from X import Y, Z`` forms, including aliases

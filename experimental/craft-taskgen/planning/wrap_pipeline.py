@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 """Transform a craft-bench dataset into planner or implementer mode.
 
 Takes any craft-bench dataset directory and generates a derived dataset with

@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 """Gateway env-builder shared by `claude_cli.py` (subprocess `claude -p`) and
 `llm_judge.py` (direct litellm calls).
 

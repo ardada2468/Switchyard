@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 """summarize_search_baseline.py — search baseline summary from Harbor trial dirs.
 
 Walks one or more Harbor baseline output dirs (the dirs `scripts/run-baselines.sh`

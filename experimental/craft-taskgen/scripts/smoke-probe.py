@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 """Fast smoke-step iteration harness — run the Harbor agent trial in isolation.
 
 The full pipeline (select → eval → build → docker → oracle → smoke → triage)

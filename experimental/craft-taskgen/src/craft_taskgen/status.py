@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 """Compact state.json summary for monitoring a long-running pipeline.
 
 Run `craft-taskgen-status path/to/state.json` to see stage counts, in-progress tasks,

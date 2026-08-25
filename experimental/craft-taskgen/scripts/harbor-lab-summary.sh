@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
 set -euo pipefail
 
 HARBOR_LAB="${HARBOR_LAB:-/home/bhuvana/aire/harbor-lab/.venv/bin/harbor-lab}"

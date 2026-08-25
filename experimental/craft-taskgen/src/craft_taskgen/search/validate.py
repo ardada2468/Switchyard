@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 """Validate search-from-T2 gold answers against repo ground truth.
 
 Checks that gold files exist in the repo and gold functions resolve to

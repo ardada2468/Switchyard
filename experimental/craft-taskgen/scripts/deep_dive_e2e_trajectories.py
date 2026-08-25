@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 """deep_dive_e2e_trajectories.py — exhaustive per-trial analyses of e2e
 trajectories on the v2b cohort.
 

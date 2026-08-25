@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 """One-off calibration: run the alignment judge on a historical cohort.
 
 Reads an input CSV (default: bigtest.csv at repo root) with columns:

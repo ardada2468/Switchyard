@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 """Capture opencode's outbound HTTP requests.
 
 Throwaway-but-kept diagnostic. Used during the codex-review P1b

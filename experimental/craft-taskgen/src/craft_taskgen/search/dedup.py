@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 """Deduplicate search-from-T2 tasks by embedding-based instruction similarity.
 
 Loads tasks from all approaches, embeds instructions, removes near-duplicates

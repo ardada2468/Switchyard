@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 """Planning track Harbor task converter.
 
 Reads planning TaskCandidate JSON files (one file per task, produced upstream

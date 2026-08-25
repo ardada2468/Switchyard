@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 """Add verifier F2P pass counts to leaked-agent-failure findings.
 
 Harbor's verifier/output.json records the required tests for each task with

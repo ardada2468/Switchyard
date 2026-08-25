@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 """Gold-review step: generate Harbor tasks, run Opus, collect and apply verdicts.
 
 Creates one review task per T2 parent (per repo). Opus uses the /gold-review skill

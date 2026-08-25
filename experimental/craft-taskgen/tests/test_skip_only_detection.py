@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 """Tests for the skip-only fast-path detection used by the triage step.
 
 The fix-agent triage path snapshots the task dir before the agent runs, then

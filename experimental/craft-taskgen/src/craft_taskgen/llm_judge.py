@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 """Direct-API judge wrapper over `litellm.acompletion` through the NVIDIA gateway.
 
 Pattern-matches `search/synthesize.py::_llm_call` (proven in production):

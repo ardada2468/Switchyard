@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 """Synthesize Search tasks from Tools implementation problems.
 
 Three seed strategies feed into a shared LLM synthesis + cross-judging pipeline:

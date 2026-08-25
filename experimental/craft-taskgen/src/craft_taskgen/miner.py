@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 """Mine GitHub PRs for hard tool-orchestration task candidates.
 
 Walks a repo's merged PRs and scores them against difficulty signals

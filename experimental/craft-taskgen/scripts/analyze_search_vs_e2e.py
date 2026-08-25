@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 """analyze_search_vs_e2e.py — search baseline vs end-to-end correlation analysis.
 
 Loads the per-trial search CSV (from `summarize_search_baseline.py --csv`) and

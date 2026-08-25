@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 """CRAFT task generation pipeline: evaluate candidates -> build tasks -> validate -> triage.
 
 Uses `claude -p --permission-mode auto` for LLM steps, subprocess for Docker/Harbor,

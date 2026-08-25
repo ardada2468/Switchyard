@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 """Integration tests for cleanup_task_images against a real Docker daemon.
 
 Marked @pytest.mark.docker so they're skipped by default via

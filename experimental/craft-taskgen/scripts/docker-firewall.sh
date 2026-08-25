@@ -1,4 +1,6 @@
 #!/bin/bash
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
 # Firewall rules for Harbor Docker containers — craft-bench variant.
 # Allowlists only the hosts needed to run the inference + agent install paths
 # the v2b cohort uses. Blocks all other outbound traffic from containers.

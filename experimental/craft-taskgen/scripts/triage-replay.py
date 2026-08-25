@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 """Replay the triage judges over existing harbor trajectories — no Docker, no smoke.
 
 The full pipeline runs smoke (Harbor + Docker) before triage, which is slow and

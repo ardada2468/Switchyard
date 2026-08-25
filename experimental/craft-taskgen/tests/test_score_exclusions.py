@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 """Tests for F2P exclusion support in SCORE_PY_TEMPLATE."""
 
 from __future__ import annotations

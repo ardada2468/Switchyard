@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 """Ingest SWE-Bench-Pro public PRs into the calibrate-alignment.py CSV format.
 
 Pulls instances from the HuggingFace dataset ``ScaleAI/SWE-bench_Pro`` (public

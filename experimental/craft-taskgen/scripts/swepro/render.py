@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 """Render a self-contained side-by-side HTML comparing instructions.
 
 Joins calibrate-alignment.py's output CSV (column ``new_instruction_md``) with

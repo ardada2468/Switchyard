@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 """extract_v2b_patch_gold.py — derive search-style gold from v2b solution patches.
 
 Walks `<v2b-tasks-dir>/*/solution/changes.patch` for each task, parses the diff

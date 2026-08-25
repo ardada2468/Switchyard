@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 """Single global per-call output-token cap for baseline smoke trials.
 
 One constant, applied to every agent that can honor it. This is a **cap**
