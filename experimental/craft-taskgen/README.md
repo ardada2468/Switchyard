@@ -1,5 +1,8 @@
 # craft-taskgen
 
+> [!WARNING]
+> Experimental software. Not for production use.
+
 Generates task suites for the [CRAFT benchmark](https://gitlab-master.nvidia.com/aire/agents/craft-bench) along two dimensions:
 
 - **Tools** — tool-orchestration tasks mined from merged GitHub PRs (the production track that fed the v2b cohort)
