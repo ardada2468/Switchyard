@@ -21,6 +21,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
 
+
 def configure_plot_style() -> None:
     sns.set_theme(style="whitegrid", context="talk")
     sns.set_palette("deep")

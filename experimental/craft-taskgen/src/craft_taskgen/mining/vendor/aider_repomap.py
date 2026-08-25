@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
 # Vendored from aider-chat (https://github.com/Aider-AI/aider)
 # Licensed under the Apache License, Version 2.0
 # Original file: aider/repomap.py
