@@ -164,6 +164,7 @@ impl DeploymentConfig {
         }
 
         let clients = self.build_clients()?;
+        let responses_target = self.build_responses_target(&clients);
         let targets = self.build_targets();
         let mut routes = Vec::with_capacity(self.routes.len());
         for (route_name, config) in &self.routes {
@@ -204,7 +205,7 @@ impl DeploymentConfig {
             );
             routes.push((config.id.clone(), route));
         }
-        Ok(Runner::new(routes))
+        Ok(Runner::new(routes).with_responses_target(responses_target))
     }
 
     fn build_clients(&self) -> RunnerResult<BTreeMap<String, Arc<TranslatingLlmClient>>> {
@@ -315,6 +316,20 @@ impl DeploymentConfig {
                 model: target.id.clone(),
                 client: client.clone(),
             })
+    }
+
+    fn build_responses_target(
+        &self,
+        clients: &BTreeMap<String, Arc<TranslatingLlmClient>>,
+    ) -> Option<(ModelId, Arc<TranslatingLlmClient>)> {
+        // The target map is ordered by name, making this selection stable across starts.
+        self.targets.values().find_map(|target| {
+            let client = clients.get(&target.llm_client)?;
+            client
+                .backend_for(&target.id, WireFormat::OpenAiResponses)
+                .is_some()
+                .then(|| (target.id.clone(), client.clone()))
+        })
     }
 }
 

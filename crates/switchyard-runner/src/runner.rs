@@ -5,10 +5,12 @@
 
 use std::collections::BTreeMap;
 use std::path::Path;
+use std::sync::Arc;
 
 use libsy::RoutingOutcome;
 use serde_json::Value;
-use switchyard_protocol::{ModelId, WireFormat};
+use switchyard_llm_client::{OpenAiPassthroughRequest, TranslatingLlmClient};
+use switchyard_protocol::{Metadata, ModelId, WireFormat};
 
 use crate::config;
 use crate::{ModelCapabilities, Route, RunnerError};
@@ -16,6 +18,7 @@ use crate::{ModelCapabilities, Route, RunnerError};
 /// Immutable named route table.
 pub struct Runner {
     routes: Vec<(ModelId, Route)>,
+    responses_target: Option<(ModelId, Arc<TranslatingLlmClient>)>,
 }
 
 /// Borrowed model metadata returned while listing routes.
@@ -57,7 +60,18 @@ impl Runner {
     /// Builds a runner from named routes in caller-provided order.
     /// Pre-condition: There must be at least one route.
     pub fn new(routes: Vec<(ModelId, Route)>) -> Self {
-        Self { routes }
+        Self {
+            routes,
+            responses_target: None,
+        }
+    }
+
+    pub(crate) fn with_responses_target(
+        mut self,
+        target: Option<(ModelId, Arc<TranslatingLlmClient>)>,
+    ) -> Self {
+        self.responses_target = target;
+        self
     }
 
     /// Returns the route registered for a model.
@@ -75,6 +89,22 @@ impl Runner {
             algorithm: route.algorithm_name(),
             capabilities: route.capabilities(),
         })
+    }
+
+    /// Proxies an auxiliary OpenAI request through the deployment's first Responses target.
+    pub async fn passthrough_openai(
+        &self,
+        request: OpenAiPassthroughRequest,
+        metadata: Metadata,
+    ) -> Result<reqwest::Response, RunnerError> {
+        let (model, client) = self
+            .responses_target
+            .as_ref()
+            .ok_or(RunnerError::ResponsesPassthroughUnsupported)?;
+        client
+            .passthrough_openai(model, request, Some(&metadata))
+            .await
+            .map_err(Into::into)
     }
 
     /// Resolves an outcome to configured target names and non-secret client settings.

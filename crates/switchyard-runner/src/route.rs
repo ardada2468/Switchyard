@@ -78,6 +78,8 @@ pub enum RunnerError {
     IncompatibleCallerFormat(CallerAuthKind),
     #[error("route has no Anthropic target for token counting")]
     CountTokensUnsupported,
+    #[error("deployment has no OpenAI Responses target for auxiliary endpoints")]
+    ResponsesPassthroughUnsupported,
     #[error(transparent)]
     Algorithm(#[from] LibsyError),
     #[error(transparent)]
